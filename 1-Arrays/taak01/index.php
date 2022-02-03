@@ -3,11 +3,11 @@
 <body>
 
 <?php
-$Elise = array ("voornaam" => "Elise", "achternaam" => "Evers", "klas" => "1A", "leeftijd" => 16);
-echo "<li>" . $Elise ["voornaam"] . "</li>";
-echo "<li>" . $Elise ["achternaam"] . "</li>";
-echo "<li>". $Elise ["klas"] . "</li>";
-echo "<li>". $Elise ["leeftijd"] . "</li>";
+$student = array ("voornaam" => "Elise", "achternaam" => "Evers", "klas" => "1A", "leeftijd" => 16);
+echo "<ul>" . "<li>" . $student ["voornaam"] . "</li>". "</ul>";
+echo "<ul>" . "<li>" . $student ["achternaam"] . "</li>". "</ul>";
+echo "<ul>" . "<li>" . $student ["klas"] . "</li>". "</ul>";
+echo "<ul>" . "<li>" . $student ["leeftijd"] . "</li>". "</ul>";
 
 ?>
 </body>
