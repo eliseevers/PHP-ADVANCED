@@ -9,7 +9,7 @@
 <body>
     <?php
     function schrijfKleur($colorstyle){
-        echo "<li>" . "<font color = $colorstyle>" . "deze tekst is  $colorstyle" . "<li>";
+        echo "<ul>" . "<li>" . "<font color = $colorstyle>" . "deze tekst is  $colorstyle" . "</li>" . "<ul>";
     }
     schrijfKleur('red');
     schrijfKleur('black'); 
