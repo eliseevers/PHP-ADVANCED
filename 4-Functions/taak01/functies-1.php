@@ -8,13 +8,16 @@
 </head>
 <body>
     <?php
-    function schrijfKleur($colorstyle){
-        echo "<ul>" . "<li>" . "<font color = $colorstyle>" . "deze tekst is  $colorstyle" . "</li>" . "<ul>";
-    }
-    schrijfKleur('red');
-    schrijfKleur('black'); 
-    schrijfKleur('yellow');
-    schrijfKleur('pink');
+        function schrijfKleur($kleur){
+            echo "<font color='$kleur'>Deze tekst is in de kleur $kleur</font>";
+        }
+        schrijfKleur("red");
+        echo "<br>";
+        schrijfKleur("orange");
+        echo "<br>";
+        schrijfKleur("yellow");
+        echo "<br>";
+        schrijfKleur("black");
     ?>
 </body>
 </html>
