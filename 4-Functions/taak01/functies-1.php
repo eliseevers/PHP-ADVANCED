@@ -9,7 +9,7 @@
 <body>
     <?php
         function schrijfKleur($kleur){
-            echo "<font color='$kleur'>Deze tekst is in de kleur $kleur</font>";
+            echo "<p><font color='$kleur'>Deze tekst is in de kleur $kleur</font></p>";
         }
         schrijfKleur("red");
         echo "<br>";
