@@ -4,10 +4,10 @@
 
 <?php
 $student = array ("voornaam" => "Elise", "achternaam" => "Evers", "klas" => "1A", "leeftijd" => 16);
-echo "<ul>" . "<li>" . $student ["voornaam"] . "</li>". "</ul>";
-echo "<ul>" . "<li>" . $student ["achternaam"] . "</li>". "</ul>";
-echo "<ul>" . "<li>" . $student ["klas"] . "</li>". "</ul>";
-echo "<ul>" . "<li>" . $student ["leeftijd"] . "</li>". "</ul>";
+echo "<ul>" . "<li>" . $student ["voornaam"] . "</li>";
+echo "<li>" . $student ["achternaam"] . "</li>";
+echo  "<li>" . $student ["klas"] . "</li>";
+echo "<li>" . $student ["leeftijd"] . "</li>". "</ul>";
 
 ?>
 </body>
